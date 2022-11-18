@@ -42,7 +42,7 @@ export function materialMaker4000(modelScenename: any, name: string, shader: rm.
  * @param lookup Lookup method of remove objects
  * @param id The environment IDs to remove
  */
-export function EnvironmentRemover3000(hard: boolean, lookup: rm.LOOKUP, id: Array<string>) {
+export function environmentRemover3000(hard: boolean, lookup: rm.LOOKUP, id: Array<string>) {
     if (hard) {
         id.forEach((env) =>{
             const hardRemover = new rm.Environment(env, lookup);
@@ -64,7 +64,7 @@ export function EnvironmentRemover3000(hard: boolean, lookup: rm.LOOKUP, id: Arr
  * @param spins Number of spins
  * @param axis 0 = x, 1 = y, 2 = z
  */
-export function SuperSpinner2000(spins: number, axis: number) {
+export function superSpinner2000(spins: number, axis: number) {
     const spinArray: rm.KeyframesVec3 = [];
     const getTime = (value: number, index: number) => (value / spins) + (index / spins)
     let x = [0,0,0]
