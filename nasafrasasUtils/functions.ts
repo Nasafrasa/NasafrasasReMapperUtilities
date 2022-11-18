@@ -37,7 +37,7 @@ export function materialMaker4000(modelScenename: any, name: string, shader: rm.
 
 /**
  * Environment Remover 3000 
- * An easy and efficient way of making materials from Blender! It also makes a track for the material, "name"MaterialTrack
+ * A way to remove stuff fast and easy
  * @param hard true = Removes the object by setting active to false, false = Removes the object by putting it out of sight
  * @param lookup Lookup method of remove objects
  * @param id The environment IDs to remove
